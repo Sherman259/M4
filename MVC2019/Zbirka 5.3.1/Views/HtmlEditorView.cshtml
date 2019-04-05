@@ -1,0 +1,69 @@
+﻿@model Zbirka_5._3._1.Models.OsobaTempl
+@{
+    Layout = null;
+}
+
+<h2>HtmlEditorView</h2>
+
+<!DOCTYPE Html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>HtmlEditorView</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 150px;
+            margin:auto;
+            
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label>id:</label>
+        @Html.Editor("Osobaid")
+    </div>
+    <div>
+        <label>ime</label>
+        @Html.Editor("ime")
+    </div>
+    <div>
+        <label>prezime</label>
+        @Html.Editor("prezime")
+    </div>
+    <div>
+        <label>Email</label>
+        @Html.Editor("Email")
+    </div>
+    <div>
+        <label>mjestostanovanja</label>
+        @Html.EditorFor(x => x.mjestostanovanja)
+    </div>
+    <div>
+        <label>spol</label>
+        @Html.EditorFor(x => x.spol)
+    </div>
+    <div>
+        <label>zaposlen</label>
+        @Html.EditorFor(x => x.zaposlen)
+    </div>
+    <div>
+        <label>Datum rođenja</label>
+        @Html.EditorFor(x => x.datumrodjenja)
+    </div>
+    <div>
+        <label>napomena</label>
+        @Html.EditorFor(x => x.napomena)
+    </div>
+
+    <input type="submit" value="Pošalji"/>
+    }
+    
+    
+</body>
+</html>
+

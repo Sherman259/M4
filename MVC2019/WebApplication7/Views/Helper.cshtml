@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Helper";
+}
+
+<h2>Helper</h2>
+<form>
+    
+    @Html.CheckBox("prvi", true); <br />
+    @Html.CheckBox("drugi", true); <br />
+    @Html.RadioButton("imeradia", "val1", true); <br />
+    @Html.RadioButton("imeradia", "val2", false); <br />
+    @Html.Hidden("pass"); <br />
+    @Html.TextBox("tkstic-boxic");<br/>
+    @Html.DropDownList("drop-downer", new SelectList(new [] {"musko", "zensko"}));
+    @Html.ListBox("list-boxic", new SelectList(new[] { "musko", "zensko" }));
+    
+  
+   
+</form>.
+

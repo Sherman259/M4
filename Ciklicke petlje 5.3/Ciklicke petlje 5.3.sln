@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciklicke petlje 5.3", "Ciklicke petlje 5.3\Ciklicke petlje 5.3.csproj", "{8ACCC0E9-532F-4C62-A4B2-FCB39CC62DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.1.1 knjiga", "5.3.1.1 knjiga\5.3.1.1 knjiga.csproj", "{E54E0F0F-890E-4E17-B23D-B8FBB03629D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiga 53.Tablica mnozena", "Knjiga 53.Tablica mnozena\Knjiga 53.Tablica mnozena.csproj", "{A0D251FF-C7A4-408C-9F07-556A5DDAB310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petlja while", "Petlja while\Petlja while.csproj", "{B8279E4D-E163-4889-B21E-82E1CF40176B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zborka 5.3.1", "Zborka 5.3.1\Zborka 5.3.1.csproj", "{4FA070A0-9D0F-44C3-8A60-927D322AC849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ACCC0E9-532F-4C62-A4B2-FCB39CC62DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACCC0E9-532F-4C62-A4B2-FCB39CC62DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACCC0E9-532F-4C62-A4B2-FCB39CC62DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACCC0E9-532F-4C62-A4B2-FCB39CC62DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54E0F0F-890E-4E17-B23D-B8FBB03629D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54E0F0F-890E-4E17-B23D-B8FBB03629D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54E0F0F-890E-4E17-B23D-B8FBB03629D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54E0F0F-890E-4E17-B23D-B8FBB03629D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D251FF-C7A4-408C-9F07-556A5DDAB310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D251FF-C7A4-408C-9F07-556A5DDAB310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D251FF-C7A4-408C-9F07-556A5DDAB310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D251FF-C7A4-408C-9F07-556A5DDAB310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8279E4D-E163-4889-B21E-82E1CF40176B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8279E4D-E163-4889-B21E-82E1CF40176B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8279E4D-E163-4889-B21E-82E1CF40176B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8279E4D-E163-4889-B21E-82E1CF40176B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA070A0-9D0F-44C3-8A60-927D322AC849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA070A0-9D0F-44C3-8A60-927D322AC849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA070A0-9D0F-44C3-8A60-927D322AC849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA070A0-9D0F-44C3-8A60-927D322AC849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

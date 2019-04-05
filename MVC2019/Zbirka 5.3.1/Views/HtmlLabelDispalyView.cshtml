@@ -1,0 +1,76 @@
+﻿@model.Zbirka_5._3._1.
+@{
+    Layout = null;
+}
+
+<h2>HtmlEditorView</h2>
+
+<!DOCTYPE Html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HtmlEditorView</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 150px;
+            margin: auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        @Html.Label("Osobaid")
+        @Html.Display("Osobaid")
+        
+    </div>
+    <div>
+        @Html.Label("ime")
+        @Html.Display("ime")
+
+
+    </div>
+    <div>
+        @Html.Label("prezime")
+        @Html.Display("prezime")
+
+
+    </div>
+    <div>
+        @Html.Label("Email")
+        @Html.Display("Email")
+
+
+    </div>
+    <div>
+        @Html.LabelFor(x => x.mjestostanovanja)
+        @Html.DisplayFor(x => x.mjestostanovanja)
+
+
+    </div>
+    <div>
+        
+        @Html.EditorFor(x => x.spol)
+        @Html.DisplayFor(x => x.spol)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.zaposlen)
+        @Html.DisplayFor(x => x.zaposlen)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.datumrodjenja)
+        @Html.DisplayFor(x => x.datumrodjenja)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.napomena)
+        @Html.DisplayFor(x => x.napomena)
+    </div>
+
+    
+    
+
+
+</body>
+</html>
+
