@@ -45,8 +45,7 @@ namespace Validacija_7._1.Controllers
     if (ModelState.IsValid)
     {
     return View("RacunIzdan", racun);
-    }
-else
+    }else
 {
 return View();
 }
