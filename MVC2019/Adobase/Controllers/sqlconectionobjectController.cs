@@ -12,7 +12,7 @@ namespace Adobase.Controllers
         // GET: sqlconectionobject
         public ActionResult Index()
         {
-            connString = @"data Source=(localdb)\MSSQLlocalDB;Initial Catalog="DB algebra";Integrated Security=True";
+            connString = @"data Source=(localdb)\MSSQLlocalDB;Initial Catalog="dbAlgebra";Integrated Security=True";
 
             //Nakon toga instanca SQLconnection
             sqlconnection con = new sqlconnection(connString);
@@ -23,7 +23,7 @@ namespace Adobase.Controllers
             try
             {
                 conn.Open();
-                if(conn.ModelState==System.Data.ConnectionState)
+                if (conn.ModelState == System.Data.ConnectionState)
                 {
                     Response.Write("Konekcija je uspjela")
                 }
