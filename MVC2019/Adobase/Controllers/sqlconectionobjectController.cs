@@ -25,7 +25,7 @@ namespace Adobase.Controllers
                 conn.Open();
                 if (conn.ModelState == System.Data.ConnectionState)
                 {
-                    Response.Write("Konekcija je uspjela")
+                    Response.Write("Konekcija je uspjela");
                 }
             }
             
