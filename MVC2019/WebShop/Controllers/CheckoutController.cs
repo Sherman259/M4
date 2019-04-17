@@ -9,7 +9,7 @@ namespace WebShop.Controllers
     public class CheckoutController : Controller
     {
 
-        private WebShopEntities db = new WebShopEntities();
+        private DefaultConnection db = new DefaultConnection ();
         public ActionResult CreateUser()
 
 
@@ -20,13 +20,18 @@ namespace WebShop.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult CreateUser([Bind(Include = " Id, Ime, Prezime, Email,AdresaDostave, Kontakt, Napomena")]) Korisnici korisnici)
-            {
+           {
+       
+
+   
+        
             if (ModelState.IsValid)
-            {
+            
             db.Korisnici.Add(korisnici);
             db.SaveChanges();
             return RedirectToAction("CreateOrder", korisnici);
-           }
-               return View(koinici);
+    }
+               return View(korisnici);
+
     }
 }
